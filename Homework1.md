@@ -32,7 +32,7 @@ ddNTPs, or dideoxynucleotides, are engineered nucleotides that do not contain th
 
 **a. Describe how Illumina's sequencing works. (10 pts)**
 
-TODO
+Illumina utilizes a technique called sequenceing by synthesis. First, DNA is fragmented into short sequences. The ends of these fragments are processed, and unique adapters are ligated to them. After, PCR is run to amplify these sequences. Then, using a flow cell that is coated with single strand oligonucleotides which correspond to the adapters, a bridge amplification is performed as the DNA fragments hybridize to the oligos, forming clusters on the flow cell. In the third step, the flow cell is loaded into a machine for automated cycles of elongation and imaging. Within each cycle, new nucleotides are added with fluorescent markers that, when visualized at particular locations, help identify the bases of the DNA fragments. 
 
 ### Question 4 (10 points)
 
@@ -48,11 +48,11 @@ Other annotated elements include: regulatory sequences such as promoters and enh
 
 **a. Describe five ways in which gene expression can be altered from Transcription to Post-Translation step. (5 pts)**
 
-TODO
+First, promoter activity highly affects whether or not transcription will occur for a particular coding region. When a promoter is activated, transcription occurs, but if promoters are inhibited, transcription does not occur. Second, DNA methylation/chromatin remodelling also affects transcription. Certain locations of the DNA may be modified to either upregulate or suppress transcription, while chromatin states (open or closed) can affect certain regions from being transcribed. Third, mRNA lifetime can affect translation. a particular transcript may not be translated if it becomes denatured. Fourth, alternative splicing can modify the resulting mature mRNA that is produced from pre-mRNA. The same pre-mRNA can be alternatively spliced to produce different proteins, depending on which exons are included. Finally, in post-translational modifcation, proteins may be inhibited due to chemical or other factors.
 
 **b. What is alternative splicing? (5 pts)**
 
-TODO
+Right after transcription, a particular pre-mRNA can produce many different mature mRNAs depending on which of its exons are present. Particular exons of a gene region can be included or excluded, resulting in completely different proteins during gene expression. This allows more types of proteins to be expressed in the human genome from its 20,000 gene coding regions.
 
 **c. If a gene has "x" number of exons, how many proteins could potentially be created? (5 pts)**
 
@@ -74,8 +74,17 @@ TODO
 
 **c. What goals can RNA-seq analysis achieve? (5 pts)**
 
-TODO
+RNA-seq analysis can achieve various goals, depending on the biological question at hand. Primarily, RNA-seq analysis allows for gene expression and differential expression, where genes are quantified in samples to observe which genes are upregulated or downregulated in various conditions. Second, RNA-seq analysis can allow for transcript discovery and annotation for alternative species. Third, mutations can be discovered, similar to variant calling, for particular genes. RNA-seq can also provide novel information about gene fusion that may have occurred in samples. Finally, using RNA-seq analysis, scientists can also perform RNA editing.
 
 **d. What are four pros and four cons of RNA-seq compared to microarray? (10 pts)**
 
-TODO
+Pros
+- RNA-seq can sequence novel transcribed regions
+- RNA-seq does not require pre-defined procedures for specific transcripts
+- Higher specificity and sensitivity
+- Simple detection of rare and low-abundance transcripts
+
+Cons
+- RNA-seq can be expensive compared to microarray
+- RNA-seq is relatively new compared to microarray, so it is not widely accessible for basic researchers to analyze data
+- 
