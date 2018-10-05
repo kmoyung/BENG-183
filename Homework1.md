@@ -12,11 +12,11 @@ PCR is an in vitro version of DNA replication that aims to amplify a specified f
 
 **b. Describe how microarrays work. (5 pts)**
 
-- TODO -
+TODO
 
 **c. Why is the central dogma incorrect/incomplete nowadays (5 pts)**
 
-- TODO - 
+TODO 
 
 ### Question 2 (15 points)
 
@@ -32,7 +32,7 @@ ddNTPs, or dideoxynucleotides, are engineered nucleotides that do not contain th
 
 **a. Describe how Illumina's sequencing works. (10 pts)**
 
-- TODO - 
+TODO
 
 ### Question 4 (10 points)
 
@@ -48,18 +48,34 @@ Other annotated elements include: regulatory sequences such as promoters and enh
 
 **a. Describe five ways in which gene expression can be altered from Transcription to Post-Translation step. (5 pts)**
 
+TODO
+
 **b. What is alternative splicing? (5 pts)**
+
+TODO
 
 **c. If a gene has "x" number of exons, how many proteins could potentially be created? (5 pts)**
 
+TODO
+
 **d. If exactly "y" exons are to be retained in the final transcript, how many proteins can be created? (5 pts)**
+
+TODO
 
 ### Question 6 (30 points)
 
 **a. Describe how the experimental pipeline of RNA-seq works. (10 pts)**
 
+TODO
+
 **b. What are the steps of RNA-seq data analysis after RNA-seq run is performed? (5 pts)**
+
+TODO
 
 **c. What goals can RNA-seq analysis achieve? (5 pts)**
 
+TODO
+
 **d. What are four pros and four cons of RNA-seq compared to microarray? (10 pts)**
+
+TODO
