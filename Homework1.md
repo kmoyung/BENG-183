@@ -38,7 +38,7 @@ TODO
 
 **a. Draw the typical structure of coding genes. (5 pts)**
 
-5' UTR -- Exon 1 -- Intron 1 -- Exon 2 -- Intron 2 -- Exon 3 -- Intron 3 -- Exon 4 - 3' UTR
+5' UTR -- Exon 1 -- Intron 1 -- Exon 2 -- Intron 2 -- Exon 3 -- Intron 3 -- Exon 4 -- 3' UTR
 
 **b. Apart from coding genes, what are other annotated elements in the genome? (5 pts)**
 
