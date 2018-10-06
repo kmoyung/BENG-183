@@ -12,11 +12,11 @@ PCR is an in vitro version of DNA replication that aims to amplify a specified f
 
 **b. Describe how microarrays work. (5 pts)**
 
-TODO
+Known cells are first extracted and separated into typically two different conditions (e.g Normal vs Cancer) and their RNA is obtained. Using a reverse transcriptase enzyme, the RNA is reverse transcribed into cDNA, where it is then fragmented into specific sequences and labeled different colors, depending on the condition (e.g normal or mutated). These labeled sequences are then placed into specific locations on the plate, forming the microarray. DNA samples in study are then placed on the glass, where specific sequences will hybridize with the cDNA. Finally, using lasers and other hardware, the fluorescent labels are detected to indicate which genes were active in the sample under study. 
 
 **c. Why is the central dogma incorrect/incomplete nowadays (5 pts)**
 
-TODO 
+The central dogma of molecular biology implies that by knowing the DNA, we can obtain the corresponding RNA, and thus the final protein that will be expressed. However, this is a largely incomplete conclusion due to what we know today about molecular biology. Although it is true that RNA is transcribed from DNA and proteins are expressed from the translation of RNA, regulational activity can significantly alter what genes are actually expressed and what proteins are produced in the human body. For example, alternative splicing can create various proteins depending on which exons are included in the final mature mRNA sequence, and DNA methylation/chromatin remodelling can dictate which regions of DNA are transcribed. Therefore, the central dogma has become a largely incomplete "blanket" statement for all living beings, especially for eukaryotes.
 
 ### Question 2 (15 points)
 
@@ -66,11 +66,11 @@ TODO
 
 **a. Describe how the experimental pipeline of RNA-seq works. (10 pts)**
 
-TODO
+First, samples of interest are obtained, typically pairwise in which there is a comparison between normal vs. a condition (e.g blood, tissue, cancer vs normal). Using RNA-seq protocols, the RNA are extracted from these samples, with most of the ribosomal filtered out via kits from Illumina, etc. Then, utilizing an enzyme, the RNA is reverse-transcribed into cDNA, fragmented into specified sequence lengths, and processed to include special adapters on each fragment. The fragments are sequenced (single-end or paired-end), and millions of reads are obtained, depending on the number and size of fragments. In the end, the reads are mapped to the genome, transcriptome, predicted exon junctions. Using this data, scientists can continue with downstream analyses.
 
 **b. What are the steps of RNA-seq data analysis after RNA-seq run is performed? (5 pts)**
 
-TODO
+RNA-seq results are obtained from sequencing in a format called FASTQ, which contain raw reads of the fragments along with additional information like quality scores and sizes. These files are input for read alignment, which aligns the raw reads to a reference genome/transcriptome (in a FASTA format). After alignment, an additional file called a GTF, or gene annotation file, is input during transcript compilation to identify the genes. At this point, we have a data file that contains all of the genes along with their abundance levels for each of the samples. From this point on, a typical analyses performed is differential expression, which normalizes and computes the expression levels of genes between different samples and/or conditions. Visualization of these results is often a final step in this analysis.
 
 **c. What goals can RNA-seq analysis achieve? (5 pts)**
 
@@ -86,5 +86,6 @@ Pros
 
 Cons
 - RNA-seq can be expensive compared to microarray
-- RNA-seq is relatively new compared to microarray, so it is not widely accessible for basic researchers to analyze data
-- 
+- Storing RNA-seq data can be costly and challenging
+- Analyzing RNA-seq data is challenging for general researchers
+- RNA-seq is still relatively new compared to microarrays
