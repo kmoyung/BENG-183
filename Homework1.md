@@ -60,7 +60,7 @@ There can be (2^x) - 1 proteins made.
 
 **d. If exactly "y" exons are to be retained in the final transcript, how many proteins can be created? (5 pts)**
 
-There are yPx proteins possible. (P for permutation)
+There are y C x proteins possible. (C for combination)
 
 ### Question 6 (30 points)
 
