@@ -56,11 +56,11 @@ Right after transcription, a particular pre-mRNA can produce many different matu
 
 **c. If a gene has "x" number of exons, how many proteins could potentially be created? (5 pts)**
 
-For x >= 2, there can be 2^(x-2) proteins made.
+There can be (2^x) - 1 proteins made.
 
 **d. If exactly "y" exons are to be retained in the final transcript, how many proteins can be created? (5 pts)**
 
-TODO
+There are yPx proteins possible. (P for permutation)
 
 ### Question 6 (30 points)
 
