@@ -8,13 +8,19 @@
 
 ### a. What is the fundamental idea of personalized medicine? (5 pts)
 
+There exists personal variations in genome sequence and environmental exposure. Understanding genomic and transcriptomic diversity on an individual level can better match therapies with patients.  
+
 ## Lecture 5. Introduction to Machine Learning
 
 ## Question 2 (15 points)
 
 ### a. Describe how in general clustering algorithms works. Explain the general idea starting from data points to a dendrogram. (5 pts)
 
+The goal of clustering is to discover distinct groups of genes and samples. Starting with a collection of N samples each represented by a p-dimensional feature vector x_i, i = 1, ..., p, divide these N vectors into k clusters so that objects within each cluster are more "similar" than objects between clusters. K is usually unknown. In the end, the clustering algorithm typically represents these clusters as a dendrogram with branches between the closest samples and clusters in a hierarchical form, from most similar up to least similar.
+
 ### b. What are the differences between hierarchical and k-means clustering algorithm? (10 pts)
+
+Hierarchical clustering aims to first calculate the similarity between all possible combinations of two data points (individual clusters). Two most similar clusters are grouped together to form a new, combined cluster, and the similarity is recalculated. These steps are repeated until all data points end up in one large, high-level cluster. On the other hand, k-means clustering starts with a pre-defined k number of clusters. It calculates the closest mean vector between the data points and includes them in the corresponding cluster, recalculating the mean vector each time until a desired clustering scheme is achieved with k clusters. One main difference between the two algorithms is that k does not need to be specified for the hierarchical clustering, whereas k-means requires a prescribed k value in order to begin.
 
 ## Lecture 6. ChIP-seq
 
