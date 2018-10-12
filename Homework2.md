@@ -1,7 +1,7 @@
 # Homework 2
 ## BENG 183
 
-**Kevin Moyung**
+**Kevin Moyung**   
 **A12609930**
 
 ## Question 1 (5 points)
