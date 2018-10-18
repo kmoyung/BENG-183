@@ -28,7 +28,11 @@ Hierarchical clustering aims to first calculate the similarity between all possi
 
 ### a. Describe how ChIP-seq works. (10 pts)
 
+The goal of ChIP-seq is to identify where select proteins (transcription factors) are bound to the genome. In order to achieve this, the cells under study are first cross-linked using formaldehyde to form covalent bonds between the binding proteins and the DNA itself. Then, the DNA is extracted and sonicated, producing sheared, soluble chromatins. Protein-specific antibodies designed to bind to the proteins are then introduced. Using a process called immunoprecipitation, the fragments of DNA with the bound antibody are filtered and isolated. These fragments are then cross-link reversed and washed, obtaining the purified DNA. From here, the DNA fragments are sequenced, where they are ultimately mapped back to the genome. To visualize where the binding proteins are located, the mapping frequency of the reads are shown in a diagram, with the highest intensity being the region where the binding most likely occurred. 
+
 ### b. Two genes A and B are quantified by RNA-seq in two different experiments. For gene A, there are a total of 20,000,000 reads and 200 reads are within A. For gene B, there are a total of 10,000,000 reads and 10,000 reads are within B. The length of A and B are 7,000bp and 10,000bp respectively. Calculate the reads per kilobase million (RPKM) for gene A and B. (15pts) 
+
+
 
 ## Question 4 (15 points)
 
