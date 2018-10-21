@@ -44,8 +44,14 @@ The goal of ChIP-seq is to identify where select proteins (transcription factors
 
 ### a. How does genome fold into nucleus? (from double-stranded DNA to chromosome) (5 pts)
 
+Starting from a short region of the DNA double helix, it is first wrapped around histones, similar to a "beads on a string" forming chromatin. Then, these 30 nM chromatin fibers are tightly packed into nucleosomes, leaving some sections of the chromosome in an extended, open form. From there, sections of the chromosome and condensed, and the resulting chromosome is the mitotic chromosome.
+
 ### b. Describe the experimental procedures of Hi-C. (15 pts)
 
+The goal of Hi-C is to select and identify regions where there is a high probability of adjacent DNA folding with each other. To begin, the cells are cross-linked with formaldehyde to form covalent bonds between adjacent DNA strands. Once "anchored", the DNA is digested with a restriction enzyme, leaving 5' overhangs. These 5' overhangs are then filled with nucleotides and biotin. Once, filled, the two strands are ligated together at that junction. After shearing the DNA and pulling down the biotin-marked fragments, the Hi-C library is created where these fragments are ultimately sequenced using paired-end sequencing. 
+
 ### c. Explain the role of contact matrix in Hi-C data analysis? (10 pts)
+
+A contact matrix allows for a visualization of the frequency of ligation products between two loci on the same chromosome (intra-chromosome). The "intensity" of the heatmaps represents how frequently the two fragments within locus i and locus j interact with each other.
 
 ### d. Describe the two physical models on genome folding. (10 pts)
