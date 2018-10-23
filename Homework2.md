@@ -32,7 +32,9 @@ The goal of ChIP-seq is to identify where select proteins (transcription factors
 
 ### b. Two genes A and B are quantified by RNA-seq in two different experiments. For gene A, there are a total of 20,000,000 reads and 200 reads are within A. For gene B, there are a total of 10,000,000 reads and 10,000 reads are within B. The length of A and B are 7,000bp and 10,000bp respectively. Calculate the reads per kilobase million (RPKM) for gene A and B. (15pts) 
 
+Gene A: 1.429 RPKM
 
+Gene B: 100 RPKM
 
 ## Question 4 (15 points)
 
