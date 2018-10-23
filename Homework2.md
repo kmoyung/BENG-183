@@ -40,6 +40,8 @@ Gene B: 100 RPKM
 
 ### You have a transcription factor (TF) with some binding motif. I.e: Suppose that given this motif you have an algorithm that can tell you whether or not your TF will bind some DNA of length 18. You also have a segment of DNA (oligo_x) that this algorithm tells you will be bound. Outline how you could determine whether or not this TF binding your oligo_x is statistically significant. (15 pts)
 
+One way to determine whether or not the oligo_x binding site is statistically significant is to use a control run using a known transcription factor on a known DNA strand that does not bind. Similar to viewing the ChIP-seq peaks in a genome browser, for example, we can view the results side by side, identifying the locations with noisy peaks that are not significant. If oligo_x has a high intensity peak that is differentially shown compared to the control run, we can conclude that the oligo_x binding site is significant.
+
 ## Lecture 7. Genome Interaction Techniques I
 
 ## Question 5 (15 points)
