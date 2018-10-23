@@ -55,3 +55,5 @@ The goal of Hi-C is to select and identify regions where there is a high probabi
 A contact matrix allows for a visualization of the frequency of ligation products between two loci on the same chromosome (intra-chromosome). The "intensity" of the heatmaps represents how frequently the two fragments within locus i and locus j interact with each other.
 
 ### d. Describe the two physical models on genome folding. (10 pts)
+
+The two physical models on genome folding are equilibrium globule and fractal globule. The equilibrium globule model is a compact, densely knotted configuration of the genome where there is an abundance of overlaps. On the other hand, the fractal globule is a continuous fractal trajectory configuration that fills a 3D space without crossing itself. The fractal globule model is an attractice structure for chromatin segments because their "un-knotted" structure would facilitate unfolding and re-folding, which can represent gene activation and gene repression during the cell cycle.
