@@ -48,7 +48,7 @@ One way to determine whether or not the oligo_x binding site is statistically si
 
 ### a. How does genome fold into nucleus? (from double-stranded DNA to chromosome) (5 pts)
 
-Starting from a short region of the DNA double helix, it is first wrapped around histones, similar to a "beads on a string" forming chromatin. Then, these 30 nM chromatin fibers are tightly packed into nucleosomes, leaving some sections of the chromosome in an extended, open form. From there, sections of the chromosome and condensed, and the resulting chromosome is the mitotic chromosome.
+Starting from a short region of the DNA double helix, it is first wrapped around histones, similar to a "beads on a string" forming chromatin. Then, these 30 nM fibers, representing nucleosomes, are packed into chromatin, leaving some sections of the chromosome in an extended, open form. From there, sections of the chromosome and condensed, and the resulting chromosome is the mitotic chromosome.
 
 ### b. Describe the experimental procedures of Hi-C. (15 pts)
 
