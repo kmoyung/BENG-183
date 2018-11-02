@@ -64,14 +64,20 @@ There is an astronimcal number of possible RNA pairs, meaning the number of inte
 
 **(a) What is the main information that MARIO provided? (5 pts)**
 
-MARIO's main function is a high-throughput mapping of RNA-RNA interaction networks in vivo.
+MARIO provides a high-throughput mapping of RNA-RNA interaction networks using an in-vivo pipeline.
 
 **(b) Describe how MARIO works. (10 pts)**
 
+The key part of this technology is to convert each pair of interacting RNAs into a unique piece of DNA and using next-gen sequencing to produce a high-throughput output. First, a biotin-labeled RNA linker is ligated to an RNA molecule. If there's another neighboring molecular, it will be ligated to the RNA fragment, producing a chimeric RNA, RNA1-linker-RNA2. These chimeric RNAs are purified, reverse-transcribed, and then sequenced. These fragments represent interacting pairs of RNA. 
+
 **(c) What is the novelty and advantages of MARIO? (10 pts)**
+
+The novelty about this technology converts the interaction of RNA-RNA pairs into DNA. Two main advantages about MARIO are: 1) an unbiased selection marker using biotin-labeled RNA linkers. This allows for a high-throughput technology. 2) This method does not introduce synthetic nucleotides or recombinant DNA before the experiment, allowing this technology to be applicable directly to human tissues.
 
 #### Question 6
 
 **(a) What is the main information that MARGI provided? (5 pts)**
+
+
 
 **(b) What are the two conclusions of non-coding RNA interaction studies by using MARGI techniques? (10 pts) Hint: Use the study that covered in class to answer this question.**
