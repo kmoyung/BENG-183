@@ -54,11 +54,17 @@ The output file of Cuffdiff is similar to a CSV format. It contains the followin
 
 **(a) How much content in the human genome is protein-coding and non-protein coding genes? (5 pts)**
 
+5% of the human genome is protein-coding, and the other 95% are non-protein coding.
+
 **(b) What is the challenge of studying RNA-RNA interaction? (5 pts)**
+
+There is an astronimcal number of possible RNA pairs, meaning the number of interactions are extremely large.
 
 #### Question 5 (25 pts)
 
 **(a) What is the main information that MARIO provided? (5 pts)**
+
+MARIO's main function is a high-throughput mapping of RNA-RNA interaction networks in vivo.
 
 **(b) Describe how MARIO works. (10 pts)**
 
