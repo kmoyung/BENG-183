@@ -36,7 +36,7 @@ These normalizations are important because they account for sequencing depth and
 
 **(c) How does TPM differ from FPKM? (5 pts)**
 
-TPM differs from FPKM in that the order of operations is essentially swapped around. For FPKM, in contrast to TPM, you would divide the read counts by the "per million" scaling factor and the gene length in kilobases, but TPM involves dividing the read counts by the gene lengths beforehand. TPM also differs in that the sum of all TPM values should equal to 1 million.
+TPM differs from FPKM in that the order of operations is essentially swapped around. For FPKM, in contrast to TPM, you would divide the read counts by the "per million" scaling factor and the gene length in kilobases, but TPM involves dividing the read counts by the gene lengths beforehand. TPM also differs in that the sum of all TPM values should equal to 1 million, which is more useful when comparing gene expression across samples.
 
 #### Question 3 (10 pts)
 
