@@ -36,7 +36,7 @@ These normalizations are important because they account for sequencing depth and
 
 **(c) How does TPM differ from FPKM? (5 pts)**
 
-TPM differs from FPKM in that the order of operations is essentially swapped around. For FPKM, in contrast to TPM, you would divide the read counts by the "per million" scaling factor and the gene length in kilobases, but TPM involves dividing the read counts by the gene lengths beforehand.
+TPM differs from FPKM in that the order of operations is essentially swapped around. For FPKM, in contrast to TPM, you would divide the read counts by the "per million" scaling factor and the gene length in kilobases, but TPM involves dividing the read counts by the gene lengths beforehand. TPM also differs in that the sum of all TPM values should equal to 1 million.
 
 #### Question 3 (10 pts)
 
@@ -46,7 +46,7 @@ Count uncertainty is the fact that reads can be shared across multiple genes bec
 
 **(b) What contents are included in the output file of Cuffdiff? (5 pts)**
 
-The output file of Cuffdiff is similar to a CSV format. It contains the following data fields: test_id, gene_id, gene, locus, sample_1, sample_2, value_1, value_2, log2(fold change), test stat, p_value, q_value, and whether or not it was significant.
+The output file of Cuffdiff is similar to a CSV format. It contains the following data fields: test id, gene id, gene, locus, sample 1, sample 2, value 1, value 2, log2(fold change), test stat, p value, q value, and whether or not it was significant.
 
 ### Lecture 10. Genome Interaction Techniques II
 
