@@ -26,8 +26,8 @@ enzymes used in these 3 NGS techniques.**
 provide, respectively? (10 pts)**
 
 **DNase-seq:** Provides information on the exposed regions of chromatin.  
-**MNase-seq:** Maps regions that are protected by the nucleosome (wrapped).  
-**ATAC-seq:** Provides information on the exposed regions of chromatin.  
+**MNase-seq:** Maps the closed regions that are protected by the nucleosome.  
+**ATAC-seq:** Provides information on the exposed regions of chromatin, location of nucleosomes, and TF footprints.  
 
 #### Question 2 (30 pts)
 
@@ -39,7 +39,7 @@ NGS techniques such as 3C, 4C, 5C, and HiC were developed to study DNA interacti
 **(a) What is the main difference in term of DNA interactions between 3C and Hi-C technique? (5
 pts)**
 
-3C studies DNA interactions on a "one to one" basis while Hi-C studies all possible interactions in an "all to all" basis, which means it covers all possible interactions simultaneously.  
+3C studies DNA interactions on a "one to one" basis while Hi-C studies all possible interactions in an "all to all" basis, which means it covers all possible interactions simultaneously in a high-throughput manner.  
 
 **(b) Although techniques to study DNA interactions differ, they do share some similar steps in
 each technique. Please re-order the following steps into the correct order. (10 pts)**
@@ -52,7 +52,7 @@ D. Align and summarize the contact
 **(c) Describe the main data analysis workflow of Hi-C from raw reads to data visualization. (15
 pts)**
 
-TODO
+From raw reads, the data is pre-processed and then aligned to a reference sequence either via full read or chimeric alignment. The reads are then binned into groups (to increase frequency) and contact matrices are built, followed by data normalization and detection of intra/inter-chromosomal interactions via tools for calling TADs, separating active/repressive compartments, and identifying chromatin loops. This resulting information is then visualized as intra/inter-chromosomal heatmaps, circular plots, multi-dataset plots, or signal transformations.
 
 ### Lecture 12. Analysis of Hi-C Data, GITAR
 
