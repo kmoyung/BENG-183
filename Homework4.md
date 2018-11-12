@@ -35,6 +35,8 @@ NGS techniques such as 3C, 4C, 5C, and HiC were developed to study DNA interacti
 **(a) What is the main difference in term of DNA interactions between 3C and Hi-C technique? (5
 pts)**
 
+TODO
+
 **(b) Although techniques to study DNA interactions differ, they do share some similar steps in
 each technique. Please re-order the following steps into the correct order. (10 pts)**
 
@@ -46,6 +48,8 @@ C. crosslink
 **(c) Describe the main data analysis workflow of Hi-C from raw reads to data visualization. (15
 pts)**
 
+TODO
+
 ### Lecture 12. Analysis of Hi-C Data, GITAR
 
 #### Question 3 (20 pts)
@@ -55,18 +59,30 @@ pre-processing, data normalization, data visualization, and topological analysis
 
 **(a) How does in-situ Hi-C protocol improve the data resolution? (10 pts)**
 
+TODO
+
 **(b) The pair-end sequencing of Hi-C fragments causes chimeric read pair derived from two
 interacting chromatins. However, it may produce low mapping rate to reference genome or lower
 mapping quality. How does GITAR deal with this problem of chimeric alignment? (10 pts)**
+
+TODO
 
 #### Question 4 (30 pts)
 
 **(a) What are technical bias in Hi-C data? (10 pts)**
 
+TODO
+
 **(b) What are biological bias in Hi-C data? (10 pts)**
 
+TODO
+
 **(c) What is topologically associated domains (TADs) in cell nucleus? (5 pts)**
+
+TODO
 
 **(d) In topological domain (TAD) analysis of GITAR, it uses directionality index (DI) combined
 with hidden Markov model (HMM) to determine the TAD regions. At the end, how does it
 identify TAD boundaries? (5 pts)**
+
+TODO
