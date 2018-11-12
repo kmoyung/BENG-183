@@ -18,12 +18,16 @@ enzymes used in these 3 NGS techniques.**
 
 **(a) What are enzymes used in DNase-seq, MNase-seq, ATAC-seq, respectively? (10 pts)**
 
-TODO
+**DNase-seq:** A specific endonuclease called DNase 1 is used to digest the extracted DNA into fragments.  
+**MNase-seq:** Both endonuclease and exonuclease are used. In particular, Micrococcal nuclease (MNase) is used to cut the extracted DNA without digesting the nucleosome-associated regions, allowing to study the open regions of chromatin effectively.  
+**ATAC-seq:** Tn5 transposase is used to transpose sequencing adapter oligos into the gDNA of permeabilized, unfixed cells. An endonuclease is used.  
 
 **(b) What is the information on chromatin open region that DNase-seq, MNase-seq, and ATACseq
 provide, respectively? (10 pts)**
 
-TODO
+**DNase-seq:** Provides information on the exposed regions of chromatin.  
+**MNase-seq:** Maps regions that are protected by the nucleosome (wrapped).  
+**ATAC-seq:** Provides information on the exposed regions of chromatin.  
 
 #### Question 2 (30 pts)
 
@@ -35,7 +39,7 @@ NGS techniques such as 3C, 4C, 5C, and HiC were developed to study DNA interacti
 **(a) What is the main difference in term of DNA interactions between 3C and Hi-C technique? (5
 pts)**
 
-TODO
+3C studies DNA interactions on a "one to one" basis while Hi-C studies all possible interactions in an "all to all" basis, which means it covers all possible interactions simultaneously.  
 
 **(b) Although techniques to study DNA interactions differ, they do share some similar steps in
 each technique. Please re-order the following steps into the correct order. (10 pts)**
