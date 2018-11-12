@@ -40,11 +40,11 @@ TODO
 **(b) Although techniques to study DNA interactions differ, they do share some similar steps in
 each technique. Please re-order the following steps into the correct order. (10 pts)**
 
-A. reverse crosslink and sequence  
-B. restriction enzyme digestion  
-D. align and summarize the contact  
-C. crosslink  
-
+C. Crosslink  
+B. Restriction enzyme digestion  
+A. Reverse crosslink and sequence
+D. Align and summarize the contact
+  
 **(c) Describe the main data analysis workflow of Hi-C from raw reads to data visualization. (15
 pts)**
 
