@@ -41,9 +41,9 @@ TODO
 each technique. Please re-order the following steps into the correct order. (10 pts)**
 
 C. Crosslink  
-B. Restriction enzyme digestion  
-A. Reverse crosslink and sequence
-D. Align and summarize the contact
+B. Restriction enzyme digestion   
+A. Reverse crosslink and sequence  
+D. Align and summarize the contact  
   
 **(c) Describe the main data analysis workflow of Hi-C from raw reads to data visualization. (15
 pts)**
