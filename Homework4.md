@@ -63,23 +63,23 @@ pre-processing, data normalization, data visualization, and topological analysis
 
 **(a) How does in-situ Hi-C protocol improve the data resolution? (10 pts)**
 
-TODO
+In-situ Hi-C is performed insdie the nucleus to increase the data resolution. Specifically, it utilizes a 4-base restriction enzyme (Mbol) as opposed to the 6-base HindIII to allow for more fragments. This is because HindIII has 1.72 million restriction sites, whereas Mbol has 5.02 million restriction sites.
 
 **(b) The pair-end sequencing of Hi-C fragments causes chimeric read pair derived from two
 interacting chromatins. However, it may produce low mapping rate to reference genome or lower
 mapping quality. How does GITAR deal with this problem of chimeric alignment? (10 pts)**
 
-TODO
+To deal with the problem of chimeric alignment, the read ends at the ligation site are truncated, and the longest piece without the junction sequence is mapped to improve the mapping quality. This removes bases that would prevent a successful or low quality mapping.
 
 #### Question 4 (30 pts)
 
 **(a) What are technical bias in Hi-C data? (10 pts)**
 
-TODO
+Technical biases arise due to experimental protocols. They include: spurious ligation products between fragments, fragment length, fragment GC content, and fragment mappability. 
 
 **(b) What are biological bias in Hi-C data? (10 pts)**
 
-TODO
+Biological biases arise due to genomic features. They include transcription start sites and CTCF binding sites.
 
 **(c) What is topologically associated domains (TADs) in cell nucleus? (5 pts)**
 
