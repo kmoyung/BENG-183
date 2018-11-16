@@ -83,10 +83,10 @@ Biological biases arise due to genomic features. They include transcription star
 
 **(c) What is topologically associated domains (TADs) in cell nucleus? (5 pts)**
 
-TODO
+TADs are highly self-interacting regions within a nucleus at the level of hundreds of kilobases to a few megabases. They are separated by boundaries that prevent interactions with the neighboring regions. 
 
 **(d) In topological domain (TAD) analysis of GITAR, it uses directionality index (DI) combined
 with hidden Markov model (HMM) to determine the TAD regions. At the end, how does it
 identify TAD boundaries? (5 pts)**
 
-TODO
+Combining both the directionality index to represent the difference between downstream and upstream biases of contact counts with a hidden markov model to determine the underlying biased state, the "shifts" of the directionality index from positive to negative allows us to identify the topological domain boundaries. We can translate these boundaries as coordinates from start to end.
