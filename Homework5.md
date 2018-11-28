@@ -9,17 +9,28 @@
 
 #### (a) How much content in human genome is protein-coding and non-protein-coding genes? (10 pts)
 
+5% of the human genome is protein-coding, and the other 95% are non-protein coding.
+
 #### (b) What is the challenge of studying RNA-RNA interaction? (5 pts)
+
+There is an astronimcal number of possible RNA pairs, meaning the number of interactions are extremely large.
 
 ### Question 2 (35 pts)
 
 #### (a) What is the main information that MARIO provided? (5 pts)
 
+MARIO provides a high-throughput mapping of RNA-RNA interaction networks using an in-vivo pipeline.
+
 #### (b) Describe the experimental process of MARIO. (15 pts)
+
+The key part of this technology is to convert each pair of interacting RNAs into a unique piece of DNA and using next-gen sequencing to produce a high-throughput output. First, a biotin-labeled RNA linker is ligated to an RNA molecule. If there's another neighboring molecular, it will be ligated to the RNA fragment, producing a chimeric RNA, RNA1-linker-RNA2. These chimeric RNAs are purified, reverse-transcribed, and then sequenced. These fragments represent interacting pairs of RNA.
 
 #### (c) What is the novelty and advantages of MARIO? (10 pts)
 
+The novelty about this technology converts the interaction of RNA-RNA pairs into DNA. Two main advantages about MARIO are: 1) an unbiased selection marker using biotin-labeled RNA linkers. This allows for a high-throughput technology. 2) This method does not introduce synthetic nucleotides or recombinant DNA before the experiment, allowing this technology to be applicable directly to human tissues.
+
 #### (d) In the bioinformatics pipeline of MARIO analysis, what is the main risk in the pipeline? (5 pts)
+
 
 ## Lecture 15. RNA-DNA Interactions
 
