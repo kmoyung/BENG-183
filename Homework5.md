@@ -31,6 +31,7 @@ The novelty about this technology converts the interaction of RNA-RNA pairs into
 
 #### (d) In the bioinformatics pipeline of MARIO analysis, what is the main risk in the pipeline? (5 pts)
 
+The main risk of the MARIO analysis pipeline is if it is unable to map the chimeric sequence to the genome.
 
 ## Lecture 15. RNA-DNA Interactions
 
@@ -38,6 +39,12 @@ The novelty about this technology converts the interaction of RNA-RNA pairs into
 
 #### (a) What is the main information that MARGI provided? (5 pts)
 
+MARGI provides information about RNA-genome interactions. As an example, it aims to find the locations of chromatin interacting with non-coding RNAs.
+
 #### (b) Describe the experimental process of MARGI. (15 pts)
 
+First, proximal DNA and RNA sequences are crosslinked. After, RNA is ligated, followed by DNA ligation. Using a protein to digest the nuclear material, the chimeras are pulled down and then reverse transcribed. After denaturation and library amplification, the fragments are finally sequenced using paired-end sequencing.
+
 #### (c) What are two conclusions of non-coding RNA interaction studies by using MARGI techniques? (10 pts) Hint: Use the studies that were covered in class to answer this question.
+
+Using MARGI techniques, researchers have found that the majority of transcription start sites are occupied by non-coding RNAs and that there exists a genome-wise anti-correlation between RNA attachment and H3K9me3. Another conclusion that was made is that RNA interaction sites are evolutionarily conserved.
