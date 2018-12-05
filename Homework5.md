@@ -23,7 +23,7 @@ MARIO provides a high-throughput mapping of RNA-RNA interaction networks using a
 
 #### (b) Describe the experimental process of MARIO. (15 pts)
 
-The key part of this technology is to convert each pair of interacting RNAs into a unique piece of DNA and using next-gen sequencing to produce a high-throughput output. First, a biotin-labeled RNA linker is ligated to an RNA molecule. If there's another neighboring molecular, it will be ligated to the RNA fragment, producing a chimeric RNA, RNA1-linker-RNA2. These chimeric RNAs are purified, reverse-transcribed, and then sequenced. These fragments represent interacting pairs of RNA.
+The key part of this technology is to convert each pair of interacting RNAs into a unique piece of DNA and using next-gen sequencing to produce a high-throughput output. First, RNA pairs are crosslinked together, forming covalent bonds. Then, a biotin-labeled RNA linker is ligated to an RNA molecule. If there's another neighboring molecular, it will be ligated to the RNA fragment, producing a chimeric RNA, RNA1-linker-RNA2. These chimeric RNAs are purified, reverse-transcribed, and then sequenced. These fragments represent interacting pairs of RNA.
 
 #### (c) What is the novelty and advantages of MARIO? (10 pts)
 
