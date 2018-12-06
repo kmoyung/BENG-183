@@ -14,7 +14,7 @@
 
 ## 1 Introduction<a name="1"></a>
 
-With all of the 3C (Chromosome Conformation Capture) technologies, the underlying goal of Hi-C is to understand the physical structure of the genome by identifying the interactions between chromosomes. Hi-C exists as a novel method with several key features compared to the previous technologies:
+With all of the 3C (Chromosome Conformation Capture) technologies, the underlying goal of Hi-C is to understand the physical structure of the genome by identifying the interactions between chromosomes [1]. Hi-C exists as a novel method with several key features compared to the previous technologies:
 
 **Genome-Wide** - Hi-C can probe the interaction profiles of all loci versus all other loci across the entire genome, and this feature is called "all vs. all".  
 
@@ -131,18 +131,18 @@ TADs are typically bounded by CTCF and extruded by cohesins. As such, the prevai
 Although the current hypothesis is being contended, single cell Hi-C studies have revealed new insights. It was found that there existed independent TAD signals in the *absence* of cohesin, a protein that has previously been found to be crucial in the mechanism. However, further work must be done in order to validate such findings. Using newer Hi-C methods, as we have learned from this chapter, we can hopefully gain a better insight in this field.
 
 # Reference
-[1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.<br>
+[1]  Kyle P. Eagen.  Principles of chromosome architecture revealed by hi-c.Trends in Biochemical Sciences,43(6):469–478, Jun 2018.
 
-[2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.<br>
+[2]  Mattia Forcato, Chiara Nicoletti, Koustav Pal, Carmen Maria Livi, Francesco Ferrari, and Silvio Bicciato.Comparison of computational methods for hi-c data analysis.Nature Methods, 14(7):679–685, Jun 2017.
 
-[3] Dekker J, Rippe K, Dekker M, Kleckner N. Capturing chromosome conformation. Science 2002;295(5558):1306–11.<br>
+[3]  Bryan  R.  Lajoie,  Job  Dekker,  and  Noam  Kaplan.   The  hitchhiker’s  guide  to  hi-c  analysis:  Practicalguidelines.Methods, 72:65–75, Jan 2015.
 
-[4] Simonis M, Klous P, Homminga I, Galjaard RJ, Rijkers EJ, Grosveld F, et al. High-res- olution identification of balanced and complex chromosomal rearrangements by 4C technology. Nature Methods 2009;6(11):837–42.<br>
+[4]  Neva  C.  Durand,  Muhammad  S.  Shamim,  Ido  Machol,  Suhas  S.P.  Rao,  Miriam  H.  Huntley,  Eric  S.Lander, and Erez Lieberman Aiden. Juicer provides a one-click system for analyzing loop-resolution hi-cexperiments.Cell Systems, 3(1):95–98, Jul 2016.
 
-[5] Dostie J, Richmond TA, Arnaout RA, Selzer RR, Lee WL, Honan TA, et al. Chromo- some Conformation Capture Carbon Copy (5C): a massively parallel solution for mapping interactions between genomic elements. Genome Res 2006;16(10): 1299–309.<br>
+[5]  Michael EG Sauria,  Jennifer E. Phillips-Cremins,  Victor G. Corces,  and James Taylor.  Hifive:  a toolsuite for easy and efficient hic and 5c data analysis.Genome Biology, 16(1), Oct 2015.
 
-[6] Lieberman-Aiden E, van Berkum NL, Williams L, Imakaev M, Ragoczy T, Telling A, et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science 2009;326(5950):289–93.<br>
+[6]  Sven Heinz,  Christopher Benner,  Nathanael Spann,  Eric Bertolino,  Yin C. Lin,  Peter Laslo,  Jason X.Cheng,  Cornelis  Murre,  Harinder  Singh,  and  Christopher  K.  Glass.   Simple  combinations  of  lineage-determining transcription factors prime cis-regulatory elements required for macrophage and b cell iden-tities.Molecular Cell, 38(4):576–589, May 2010.
 
-[7] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.<br>
+[7]  F. Ay, T. L. Bailey, and W. S. Noble.  Statistical confidence estimation for hi-c data reveals regulatorychromatin contacts.Genome Research, 24(6):999–1011, Feb 2014.
 
-[8] https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx.
+[8]  Aaron T.L. Lun and Gordon K. Smyth.  diffhic:  a bioconductor package to detect differential genomicinteractions in hi-c data.BMC Bioinformatics, 16(1), Aug 2015.
