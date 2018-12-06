@@ -4,7 +4,7 @@
 
 1. [Introduction](#1)
 2. [Experimental Protocol](#2)<br>
-    2.1. [In situ Hi-C](#21)<br>
+    2.1. [In Situ Hi-C](#21)<br>
     2.2. [Single Cell Hi-C](#22)<br>
 3. [Tools](#3)  
 4. [Analysis](#4)<br>
@@ -25,17 +25,25 @@ With all of the 3C (Chromosome Conformation Capture) technologies, the underlyin
 
 ## 2 Experimental Protocol<a name="2"></a>
 
-![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
-[Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. **Figure by Sotelo-Silveira, Mariana, et al. Trends in Plant Science (2018).**
+The general Hi-C technique is as follows:
 
-To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
+1. **Crosslinking** - Cells are cross-linked and fixed using formaldehyde so that spatially adjacent DNA are covalently bonded.
+2. **Digestion** - Restriction enzymes are used to digest the DNA, leaving 5' overhangs.
+3. **Biotinylation** - Fragment overhangs are filled and marked with biotin.
+4. **Ligation** - The biotinylated ends are ligated together.
+5. **Size Selection** - The ligated fragments are filtered, sheared, and purified via sonication to a desired sequence length for sequencing.  
 
-#### In situ Hi-C<a name="21"></a>
-‘1’, ‘Many’ and ‘All’ indicate how many loci are interrogated in a given experiment. For example, ‘1 versus All’ indicates that the experiment probes the interaction profile between 1 locus and all other potential loci in the genome. ‘All versus All’ means that one can detect the interaction profiles of all loci, genome-wide, and their interactions with all other genomic loci [1].
+To better illustrate the experimental workflow, below is a diagram:
 
-These kind of specificity is determined by the primer when people use **specific primers** before PCR. 
+![](https://github.com/kmoyung/BENG-183/blob/master/hicoriginal.PNG)  
+
+#### In Situ Hi-C<a name="21"></a>
+
+![](https://github.com/kmoyung/BENG-183/blob/master/hicinsitu.PNG)
 
 #### Single Cell Hi-C<a name="22"></a>
+
+![](https://github.com/kmoyung/BENG-183/blob/master/hicsinglecell.PNG)
 
 ## 3 Tools<a name="3"></a>
 Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used.
