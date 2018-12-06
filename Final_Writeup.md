@@ -1,11 +1,12 @@
 # Hi-C Technology and Analysis Tools 
-1. [Introduction](#231)
-2. [Overivew of 3C methods](#232)<br>
-    2.1. [Specificity](#2321)<br>
-    2.2. [Through-put and resolution](#2322)
-3. [Hi-C](#233)
-4. [ChIA-PET](#234)
-5. [Selected methods comparison](#235)
+1. [Introduction](#1)
+    1.1. [Topologically Associated Domains] 
+2. [Experimental Protocol](#232)<br>
+    2.1. [General Protocol](#2321)<br>
+    2.2. [In-Situ Hi-C](#2322)
+3. [Tools](#233)
+4. [Analysis](#234)
+5. [References](#235)
 
 
 
