@@ -1,6 +1,6 @@
 # Hi-C Technology and Analysis Tools 
 
-*Kevin Moyung, A12609930*
+*By Kevin Moyung, A12609930*
 
 1. [Introduction](#1)
 2. [Experimental Protocol](#2)<br>
