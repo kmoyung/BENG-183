@@ -2,8 +2,6 @@
 
 *By Kevin Moyung, A12609930*
 
-***
-
 1. [Introduction](#1)
 2. [Experimental Protocol](#2)<br>
     2.1. [In Situ Hi-C](#21)<br>
@@ -37,13 +35,13 @@ The general Hi-C technique is as follows [2]:
 
 To better illustrate the experimental workflow, below is a diagram:
 
-![](https://github.com/kmoyung/BENG-183/blob/master/hicoriginal.PNG)  
+![](./hicoriginal.PNG)  
 
 *A typical Hi-C workflow.*
 
 ### In Situ Hi-C<a name="21"></a>
 
-![](https://github.com/kmoyung/BENG-183/blob/master/hicinsitu.PNG)
+![](./hicinsitu.PNG)
 
 *In situ Hi-C.*
 
@@ -51,7 +49,7 @@ Developed by Rao et. al, in situ Hi-C is a derived technology that is performed 
 
 ### Single Cell Hi-C<a name="22"></a>
 
-![](https://github.com/kmoyung/BENG-183/blob/master/hicsinglecell.PNG)
+![](./hicsinglecell.PNG)
 
 *Single cell Hi-C protocol.*
 
@@ -71,7 +69,7 @@ Features:
 - Wide suite of Java command line tools for analysis
 - Intuitive Java based web user-interface for visualization
 
-![](https://github.com/kmoyung/BENG-183/blob/master/juicer.jpg)
+![](./juicer.jpg)
 
 #### Cooler
 
@@ -127,7 +125,7 @@ Chromatin is typically organized by active (A) and repressive (B) compartments, 
 
 TADs are typically bounded by CTCF and extruded by cohesins. As such, the prevailing hypothesis for TAD formation is that it is produced by loop extrusion. While the exact mechanism is currently being debated, the following figure shows the general mechanism of TAD formation:
 
-![](https://github.com/kmoyung/BENG-183/blob/master/tad2.jpg)
+![](./tad2.jpg)
 
 Although the current hypothesis is being contended, single cell Hi-C studies have revealed new insights. It was found that there existed independent TAD signals in the *absence* of cohesin, a protein that has previously been found to be crucial in the mechanism. However, further work must be done in order to validate such findings. Using newer Hi-C methods, as we have learned from this chapter, we can hopefully gain a better insight in this field.
 
