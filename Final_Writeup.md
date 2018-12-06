@@ -2,6 +2,8 @@
 
 *By Kevin Moyung, A12609930*
 
+***
+
 1. [Introduction](#1)
 2. [Experimental Protocol](#2)<br>
     2.1. [In Situ Hi-C](#21)<br>
@@ -10,7 +12,6 @@
 4. [Analysis](#4)<br>
     4.1. [Topologically Associated Domains](#41)<br>
   
-
 
 ## 1 Introduction<a name="1"></a>
 
