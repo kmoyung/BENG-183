@@ -20,6 +20,7 @@ With all of the 3C (Chromosome Conformation Capture) technologies, the underlyin
 
 **High Throughput** - The Hi-C technology is high throughput, meaning that it can generate billions of reads per run with the help of next-generation sequencing.  
 
+This is a powerful method that provides pairwise information on the interactive genomic regions.
 
 > In the next section, we will explore the experimental protocol as well as some Hi-C derived techniques.
 
@@ -37,47 +38,73 @@ To better illustrate the experimental workflow, below is a diagram:
 
 ![](https://github.com/kmoyung/BENG-183/blob/master/hicoriginal.PNG)  
 
+*A typical Hi-C workflow.*
+
 ### In Situ Hi-C<a name="21"></a>
 
 ![](https://github.com/kmoyung/BENG-183/blob/master/hicinsitu.PNG)
+
+*In situ Hi-C.*
+
+Developed by Rao et. al, in situ Hi-C is a derived technology that is performed inside the **nucleus** in order to **increase data resolution**. Instead of using the typical 6-base cutter (HindIII) restriction enzyme, the protocol uses a 4-base cutter (MboI) to generate more fragments. This is because HindIII has 1.72 million restriction sites in the human genome, compared to the 5.02 million restriction sites from MboI. 
 
 ### Single Cell Hi-C<a name="22"></a>
 
 ![](https://github.com/kmoyung/BENG-183/blob/master/hicsinglecell.PNG)
 
+*Single cell Hi-C protocol.*
+
+Single cell Hi-C, developed by Nagano et. al, is a powerful derivation of the original Hi-C method because it can create "snapshots" of thousands of chromatin interactions that occur simultaneously in a single cell. This leverages performing Hi-C within the cell nucleus.
+
+> Next, we will take a look at the various tools that can help researchers explore Hi-C data.
+
 ## 3 Tools<a name="3"></a>
-Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used.
 
-The principle of Hi-C can be illustrated as:
-![](/assets/hic.gif)
+Hi-C and other genomic technologies within the 3C family have prompted the development of a suite of software tools to aid in the analysis and visualization of its high-throughput data. Because the amount of Hi-C data generated is large, several platforms have been developed to facilitate handling such data.
 
+#### Juicer
 
-##### Hi-C critical steps [8] 
-- Fixation: keep DNA conformed
-- Digestion: enzyme frequency and penetratin
-- Fill-in: biotin for junction enrichment
-- Ligation: freeze interactions in sequence
-- Biotin removal: junctions only
-- Fragment size: small fragments sequence better
-- Adapter ligation: paired-end and indexing
-- PCR: create enough material for flow cell
+Juicer is a multi-faceted tool that aligns, filters, normalizes, identifies, and compares topologically associated domains (TADs). In addition to such features, it can identify loops and compartments and be visualized all through its own "Juicebox" feature (**cite juicer**).
 
-##### Hi-C derived techniques 
-- Hi-C original: [Lieberman-Aiden et al., Science 2010](doi: 10.1126/science.1181369)
-- Hi-C 1.0: [Belton-JM et al., Methods 2012](doi: 10.1016/j.ymeth.2012.05.001)
-- In situ Hi-C: [Rao et al., Cell 2014](doi: 10.1016/j.cell.2014.11.021)
-- Single cell Hi-C: [Nagano et al., Genome Biology 2015](https://doi.org/10.1186/s13059-015-0753-7)
-- DNase Hi-C [Ma, Wenxiu, Methods et al](https://www.ncbi.nlm.nih.gov/pubmed/25437436)
-- Hi-C 2.0: [Belaghzal et al., Methods 2017](https://www.ncbi.nlm.nih.gov/pubmed/28435001)
-- DLO-Hi-C: [Lin et al., Nature Genetics 2018](https://doi.org/10.1038/s41588-018-0111-2)
-- Hi-C improving: [Golloshi et al., Methods 2018](https://www.biorxiv.org/content/biorxiv/early/2018/02/13/264515.full.pdf)
-- Arima 1-day Hi-C: [Ghurye et al., BioRxiv 2018](https://www.biorxiv.org/content/early/2018/02/07/261149)
+Features:
+- Wide suite of Java command line tools for analysis
+- Intuitive Java based web user-interface for visualization
+
+![](https://github.com/kmoyung/BENG-183/blob/master/juicer.jpg)
+
+#### Cooler
+
+Cooler is a visualization tool that primarily builds and queries contact matrices at various resolutions. In addition to its normalization and visualization features, it stores Hi-C data in a sparse, compressed, binary file format called "cool" to improve analysis efficiency.
+
+Features:
+- Conforms to HDF5 binary data standard
+- Less intuitive but more dynamic JavaScript-based visualizer
+
+#### Hi-Five
+
+Hi-Five is a Python package for efficient analysis of the entire Hi-C experiment, from mapped reads to interaction values. It is currently integrated into the open-source, web-based platform Galazy with an easy-to-use graphical interface.
+
+#### HOMER
+
+HOMER is a suite of tools for analyzing high-resolution Hi-C data, such as data generated from using 4-cutters in-situ. HOMER provides a comprehensive workflow, such as triming and read mapping, quality control, visualization, and differential calculations. It can identify chromatin compartments, TADs, and loops.
+
+#### Fit-Hi-C
+
+Developed by the Ay Lab at UCSD, Fit-Hi-C is a software package designed to assign statistical confidence estimates to interaction data from Hi-C. It works by applying a cubic spline function to the relationship between genomic distance and contact count. After the initial fit, outliers are removed and the process is repeated. It is a popular method to determine the statistical confidence of Hi-C data.
+
+#### diffHic
+
+diffHic is an alternative software that involves identifying significant changes in the interaction intensity, or differential interactions, between two or more biological conditions. While the conventional analyses focuses on the detection of statistically significant interactions of the genome, the creators of diffHic claim that this method is more statistically rigorous and thus may provide more biologically relevant results.
 
 ## 4 Analysis<a name="4"></a> 
-ChIA-PET is another method that combines ChIP and pair-end sequencing to analysis the chromtin interaction. It allows for targeted binding factors such as: estrogen receptor alpha, CTCF-mediated loops, RNA polymerase II, and a combination of key architectural factors. on the one hand, it has the benefit of achieving a higher resolution compared to Hi-C, as only ligation products involving the immunoprecipitated molecule are sequenced, on the other hand, ChIA-PET has systematic biases due to ChIP process:
-- Only one type of binding factor selected
-- Different antibodies
-- ChIP conditions
+
+A typical analysis pipeline involves the following steps:
+
+1. **Raw reads processing**
+2. **Alignment** - Full read or chimeric alignment
+3. **Binning** 
+4. **Normalization**
+5. **Interaction detection and visualization** - Intra-chromosomal/Inter-chromosomal interactions
 
 ### Topologically Associated Domains<a name="41"></a>
 
