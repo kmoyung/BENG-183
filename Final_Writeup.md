@@ -1,17 +1,17 @@
 # Hi-C Technology and Analysis Tools 
-1. [Introduction](#1)
-    1.1. [Topologically Associated Domains] 
-2. [Experimental Protocol](#232)<br>
-    2.1. [General Protocol](#2321)<br>
-    2.2. [In-Situ Hi-C](#2322)
-3. [Tools](#233)
-4. [Analysis](#234)
-5. [References](#235)
+1. [Introduction](#1)<br>
+    1.1. [Topologically Associated Domains](#11)<br>
+2. [Experimental Protocol](#2)<br>
+    2.1. [General Protocol](#21)<br>
+    2.2. [In-Situ Hi-C](#22)
+3. [Tools](#3)  
+4. [Analysis](#4)  
+5. [References](#5)  
 
 
 
 
-## 2.3.1 Introduction<a name="231"></a>
+## 1 Introduction<a name="1"></a>
 
 The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
 
@@ -23,22 +23,24 @@ To capture the interaction (crosslink between strings), there are few steps in g
 
 > Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods. 
 
-## 2.3.2 Overivew of 3C methods<a name="232"></a>
+### 1.1 Topologically Associated Domains<a name="11"></a>
+
+## 2 Overivew of 3C methods<a name="2"></a>
 
 ![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
 [Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. **Figure by Sotelo-Silveira, Mariana, et al. Trends in Plant Science (2018).**
 
 To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
-#### 1) Specificity - What does _one, all, many_ mean<a name="2321"></a>
+#### 1) Specificity - What does _one, all, many_ mean<a name="21"></a>
 ‘1’, ‘Many’ and ‘All’ indicate how many loci are interrogated in a given experiment. For example, ‘1 versus All’ indicates that the experiment probes the interaction profile between 1 locus and all other potential loci in the genome. ‘All versus All’ means that one can detect the interaction profiles of all loci, genome-wide, and their interactions with all other genomic loci [1].
 
 These kind of specificity is determined by the primer when people use **specific primers** before PCR. 
 
-#### 2) Through-put and resolution<a name="2322"></a>
+#### 2) Through-put and resolution<a name="22"></a>
 Hi-C techniques has the highest through-put (billion reads per sample) but suffering of a relative low resolution of 0.1-1Mb. However, the other methods usually have a higher resolution  around 1kb. For more details one can refer to table2 in [2].
 
-## 2.3.3 Hi-C<a name="233"></a>
+## 3 Hi-C<a name="3"></a>
 Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used.
 
 The principle of Hi-C can be illustrated as:
