@@ -26,7 +26,7 @@ This is a powerful method that provides pairwise information on the interactive 
 
 ## 2 Experimental Protocol<a name="2"></a>
 
-The general Hi-C technique is as follows:
+The general Hi-C technique is as follows [2]:
 
 1. **Crosslinking** - Cells are cross-linked and fixed using formaldehyde so that spatially adjacent DNA are covalently bonded.
 2. **Digestion** - Restriction enzymes are used to digest the DNA, leaving 5' overhangs.
@@ -60,11 +60,11 @@ Single cell Hi-C, developed by Nagano et. al, is a powerful derivation of the or
 
 ## 3 Tools<a name="3"></a>
 
-Hi-C and other genomic technologies within the 3C family have prompted the development of a suite of software tools to aid in the analysis and visualization of its high-throughput data. Because the amount of Hi-C data generated is large, several platforms have been developed to facilitate handling such data.
+Hi-C and other genomic technologies within the 3C family have prompted the development of a suite of software tools to aid in the analysis and visualization of its high-throughput data. Because the amount of Hi-C data generated is large, several platforms have been developed to facilitate handling such data [3].
 
 #### Juicer
 
-Juicer is a multi-faceted tool that aligns, filters, normalizes, identifies, and compares topologically associated domains (TADs). In addition to such features, it can identify loops and compartments and be visualized all through its own "Juicebox" feature (**cite juicer**).
+Juicer is a multi-faceted tool that aligns, filters, normalizes, identifies, and compares topologically associated domains (TADs). In addition to such features, it can identify loops and compartments and be visualized all through its own "Juicebox" feature [4].
 
 Features:
 - Wide suite of Java command line tools for analysis
@@ -82,19 +82,19 @@ Features:
 
 #### Hi-Five
 
-Hi-Five is a Python package for efficient analysis of the entire Hi-C experiment, from mapped reads to interaction values. It is currently integrated into the open-source, web-based platform Galazy with an easy-to-use graphical interface.
+Hi-Five is a Python package for efficient analysis of the entire Hi-C experiment, from mapped reads to interaction values. It is currently integrated into the open-source, web-based platform Galazy with an easy-to-use graphical interface [5].
 
 #### HOMER
 
-HOMER is a suite of tools for analyzing high-resolution Hi-C data, such as data generated from using 4-cutters in-situ. HOMER provides a comprehensive workflow, such as triming and read mapping, quality control, visualization, and differential calculations. It can identify chromatin compartments, TADs, and loops.
+HOMER is a suite of tools for analyzing high-resolution Hi-C data, such as data generated from using 4-cutters in-situ. HOMER provides a comprehensive workflow, such as triming and read mapping, quality control, visualization, and differential calculations. It can identify chromatin compartments, TADs, and loops [6].
 
 #### Fit-Hi-C
 
-Developed by the Ay Lab at UCSD, Fit-Hi-C is a software package designed to assign statistical confidence estimates to interaction data from Hi-C. It works by applying a cubic spline function to the relationship between genomic distance and contact count. After the initial fit, outliers are removed and the process is repeated. It is a popular method to determine the statistical confidence of Hi-C data.
+Developed by the Ay Lab at UCSD, Fit-Hi-C is a software package designed to assign statistical confidence estimates to interaction data from Hi-C. It works by applying a cubic spline function to the relationship between genomic distance and contact count. After the initial fit, outliers are removed and the process is repeated. It is a popular method to determine the statistical confidence of Hi-C data [7].
 
 #### diffHic
 
-diffHic is an alternative software that involves identifying significant changes in the interaction intensity, or differential interactions, between two or more biological conditions. While the conventional analyses focuses on the detection of statistically significant interactions of the genome, the creators of diffHic claim that this method is more statistically rigorous and thus may provide more biologically relevant results.
+diffHic is an alternative software that involves identifying significant changes in the interaction intensity, or differential interactions, between two or more biological conditions. While the conventional analyses focuses on the detection of statistically significant interactions of the genome, the creators of diffHic claim that this method is more statistically rigorous and thus may provide more biologically relevant results [8].
 
 ## 4 Analysis<a name="4"></a> 
 
