@@ -37,11 +37,11 @@ To better illustrate the experimental workflow, below is a diagram:
 
 ![](https://github.com/kmoyung/BENG-183/blob/master/hicoriginal.PNG)  
 
-#### In Situ Hi-C<a name="21"></a>
+### In Situ Hi-C<a name="21"></a>
 
 ![](https://github.com/kmoyung/BENG-183/blob/master/hicinsitu.PNG)
 
-#### Single Cell Hi-C<a name="22"></a>
+### Single Cell Hi-C<a name="22"></a>
 
 ![](https://github.com/kmoyung/BENG-183/blob/master/hicsinglecell.PNG)
 
@@ -79,7 +79,7 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 - Different antibodies
 - ChIP conditions
 
-#### Topologically Associated Domains<a name="41"></a>
+### Topologically Associated Domains<a name="41"></a>
 
 ## 5 Selected methods comparison<a name="235"></a> 
 <table>
