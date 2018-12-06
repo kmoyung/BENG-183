@@ -101,71 +101,34 @@ diffHic is an alternative software that involves identifying significant changes
 A typical analysis pipeline involves the following steps:
 
 1. **Raw reads processing**
-2. **Alignment** - Full read or chimeric alignment
+
+2. **Alignment** 
+
+Reads may be mapped with various tools and methods: full-read, chimeric, etc.
+
 3. **Binning** 
+
+Reads are grouped into fixed, non-overlapping genomic spans in order to increase the signal of the interaction. 
+
 4. **Normalization**
-5. **Interaction detection and visualization** - Intra-chromosomal/Inter-chromosomal interactions
+
+Normalization aims to reduce biases during the experiment in order to obtain more accurate results. There are currently two types of normalization: **Explicit normalization,** which requires an understanding of the known bias sources and is corrected by integrating a probabilistic model to the data, and **Implicit normalization,** which is an iterative correction based on the assumption that all loci should have equal visibility.
+
+5. **Interaction detection and visualization** 
+
+Leveraging the intra-chromosomal/inter-chromosomal interactions, we can call TADs (see next subsection), separate active/repressive compartments, and identify chromatin loops that exist throughout the genome. 
+
+> Specifically, we will focus on TADs for the remainder of this chapter.
 
 ### Topologically Associated Domains<a name="41"></a>
 
-## 5 Selected methods comparison<a name="235"></a> 
-<table>
- <tbody>
-    <tr>
-        <th>Method</td>
-        <th>Targets</td>
-        <th>Resolution</td>
-        <th>Notes</td>
-    </tr>
-    <tr>
-        <td>3C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0535">[3]</a></td>
-        <td>one-vs-one</td>
-        <td>~1–10 kb<br></td>
-        <td><ul><li>Sequence of bait locus must be known</li><li>Easy data analysis</li><li>Low throughput</li></ul></td>
-    </tr>
-    <tr>
-    <td>4C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0545">[4]</a></td>
-    <td>one-vs-all</td>
-    <td>~2 kb</td>
-    <td><ul><li>Sequence of bait locus must be known</li><li>Detects novel contacts</li><li>Long-range contacts</li></ul></td>
-    </tr>
-    <tr>
-    <td>5C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0550">[5]</a></td>
-    <td>many-vs-many</td>
-    <td>~1 kb</td>
-    <td><ul><li>High dynamic range</li><li>Complete contact map of a locus</li><li>3C with ligation-mediated amplification (LMA) of a ‘carbon copy’ library of oligos designed across restriction fragment junctions of interest
-3C</li></ul></td>
-    </tr>
-    <tr>
-    <td>Hi-C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0300">[6]</a></td>
-    <td>all-vs-all</td>
-    <td>0.1–1 Mb</td>
-    <td><ul><li>Genome-wide nucleosome core positioning</li><li>Relative low resolution</li><li>High cost</li></ul></td>
-    </tr>
-    <tr>
-    <td>ChIA-PET <a href="http://refhub.elsevier.com/S0168-9525(15)00063-3/sbref1405">[7]</a></td>
-    <td>Interaction of whole genome mediated by protein</td>
-    <td>Depends on read depth and the size of the genome region bound by the protein of interest</td>
-    <td><ul><li>Lower noise with ChIP</li><li>Biased method since selected protein</li></ul></td>
-    </tr>
- </tbody>
-</table>
+Chromatin is typically organized by active (A) and repressive (B) compartments, where **A** generally contains highly active genes and **B** generally contains inactive or repressed genes. In such compartments, there are areas where there is an extremely high frequency in interactions. These regions are called TADs, or topologically associated domains. 
 
+TADs are typically bounded by CTCF and extruded by cohesins. As such, the prevailing hypothesis for TAD formation is that it is produced by loop extrusion. While the exact mechanism is currently being debated, the following figure shows the general mechanism of TAD formation:
 
+![](https://github.com/kmoyung/BENG-183/blob/master/tad2.jpg)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Although the current hypothesis is being contended, single cell Hi-C studies have revealed new insights. It was found that there existed independent TAD signals in the *absence* of cohesin, a protein that has previously been found to be crucial in the mechanism. However, further work must be done in order to validate such findings. Using newer Hi-C methods, as we have learned from this chapter, we can hopefully gain a better insight in this field.
 
 # Referrence
 [1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.<br>
