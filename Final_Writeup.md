@@ -1,4 +1,7 @@
 # Hi-C Technology and Analysis Tools 
+
+*Kevin Moyung, A12609930*
+
 1. [Introduction](#1)
 2. [Experimental Protocol](#2)<br>
     2.1. [In situ Hi-C](#21)<br>
