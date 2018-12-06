@@ -6,9 +6,7 @@
     2.2. [In-Situ Hi-C](#22)
 3. [Tools](#3)  
 4. [Analysis](#4)  
-5. [References](#5)  
-
-
+  
 
 
 ## 1 Introduction<a name="1"></a>
@@ -68,14 +66,14 @@ The principle of Hi-C can be illustrated as:
 - Hi-C improving: [Golloshi et al., Methods 2018](https://www.biorxiv.org/content/biorxiv/early/2018/02/13/264515.full.pdf)
 - Arima 1-day Hi-C: [Ghurye et al., BioRxiv 2018](https://www.biorxiv.org/content/early/2018/02/07/261149)
 
-## 2.3.4 ChIA-PET<a name="234"></a> 
+## 4 Analysis<a name="4"></a> 
 ChIA-PET is another method that combines ChIP and pair-end sequencing to analysis the chromtin interaction. It allows for targeted binding factors such as: estrogen receptor alpha, CTCF-mediated loops, RNA polymerase II, and a combination of key architectural factors. on the one hand, it has the benefit of achieving a higher resolution compared to Hi-C, as only ligation products involving the immunoprecipitated molecule are sequenced, on the other hand, ChIA-PET has systematic biases due to ChIP process:
 - Only one type of binding factor selected
 - Different antibodies
 - ChIP conditions
 
 
-## 2.3.5 Selected methods comparison<a name="235"></a> 
+## 5 Selected methods comparison<a name="235"></a> 
 <table>
  <tbody>
     <tr>
