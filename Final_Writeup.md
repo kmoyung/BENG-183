@@ -1,44 +1,38 @@
 # Hi-C Technology and Analysis Tools 
-1. [Introduction](#1)<br>
-    1.1. [Topologically Associated Domains](#11)<br>
+1. [Introduction](#1)
 2. [Experimental Protocol](#2)<br>
-    2.1. [General Protocol](#21)<br>
-    2.2. [In-Situ Hi-C](#22)
+    2.1. [In situ Hi-C](#21)<br>
+    2.2. [Single Cell Hi-C](#22)<br>
 3. [Tools](#3)  
-4. [Analysis](#4)  
+4. [Analysis](#4)<br>
+    4.1. [Topologically Associated Domains](#41)<br>
   
 
 
 ## 1 Introduction<a name="1"></a>
 
-The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
+With all of the 3C (Chromosome Conformation Capture) technologies, the underlying goal of Hi-C is to understand the physical structure of the genome by identifying the interactions between chromosomes. Hi-C exists as a novel method with several key features compared to the previous technologies:
 
-To capture the interaction (crosslink between strings), there are few steps in general:
-- Take a snapshot of the flowing cells - **Crosslink** with fixative agent (formaldehyde)
-- Zoom in on crosslinked part and exclude untangled parts - **Digested** with a restriction enzyme
-- Analyze the components come from the same chromatin - **Reverse crosslink** and **sequence**
-- Finish the jigsaw puzzle and get the results - **Align** the reads and **summarize** the contacts
+-**Genome-Wide** - Hi-C can probe the interaction profiles of all loci versus all other loci across the entire genome, and this feature is called "all vs. all".  
+-**High Throughput** - The Hi-C technology is high throughput, meaning that it can generate billions of reads per run with the help of next-generation sequencing.
 
-> Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods. 
+> In the next section, we will explore the experimental protocol as well as some Hi-C derived techniques.
 
-### 1.1 Topologically Associated Domains<a name="11"></a>
-
-## 2 Overivew of 3C methods<a name="2"></a>
+## 2 Experimental Protocol<a name="2"></a>
 
 ![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
 [Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. **Figure by Sotelo-Silveira, Mariana, et al. Trends in Plant Science (2018).**
 
 To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
-#### 1) Specificity - What does _one, all, many_ mean<a name="21"></a>
+#### In situ Hi-C<a name="21"></a>
 ‘1’, ‘Many’ and ‘All’ indicate how many loci are interrogated in a given experiment. For example, ‘1 versus All’ indicates that the experiment probes the interaction profile between 1 locus and all other potential loci in the genome. ‘All versus All’ means that one can detect the interaction profiles of all loci, genome-wide, and their interactions with all other genomic loci [1].
 
 These kind of specificity is determined by the primer when people use **specific primers** before PCR. 
 
-#### 2) Through-put and resolution<a name="22"></a>
-Hi-C techniques has the highest through-put (billion reads per sample) but suffering of a relative low resolution of 0.1-1Mb. However, the other methods usually have a higher resolution  around 1kb. For more details one can refer to table2 in [2].
+#### Single Cell Hi-C<a name="22"></a>
 
-## 3 Hi-C<a name="3"></a>
+## 3 Tools<a name="3"></a>
 Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used.
 
 The principle of Hi-C can be illustrated as:
@@ -72,6 +66,7 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 - Different antibodies
 - ChIP conditions
 
+#### Topologically Associated Domains<a name="41"></a>
 
 ## 5 Selected methods comparison<a name="235"></a> 
 <table>
