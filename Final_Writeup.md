@@ -16,8 +16,8 @@
 
 With all of the 3C (Chromosome Conformation Capture) technologies, the underlying goal of Hi-C is to understand the physical structure of the genome by identifying the interactions between chromosomes. Hi-C exists as a novel method with several key features compared to the previous technologies:
 
--**Genome-Wide** - Hi-C can probe the interaction profiles of all loci versus all other loci across the entire genome, and this feature is called "all vs. all".  
--**High Throughput** - The Hi-C technology is high throughput, meaning that it can generate billions of reads per run with the help of next-generation sequencing.
+**Genome-Wide** - Hi-C can probe the interaction profiles of all loci versus all other loci across the entire genome, and this feature is called "all vs. all".  
+**High Throughput** - The Hi-C technology is high throughput, meaning that it can generate billions of reads per run with the help of next-generation sequencing.
 
 > In the next section, we will explore the experimental protocol as well as some Hi-C derived techniques.
 
