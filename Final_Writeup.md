@@ -125,7 +125,7 @@ Chromatin is typically organized by active (A) and repressive (B) compartments, 
 
 TADs are typically bounded by CTCF and extruded by cohesins. As such, the prevailing hypothesis for TAD formation is that it is produced by loop extrusion. While the exact mechanism is currently being debated, the following figure shows the general mechanism of TAD formation:
 
-![](./tad2.jpg)
+![](./tad2.png)
 
 Although the current hypothesis is being contended, single cell Hi-C studies have revealed new insights. It was found that there existed independent TAD signals in the *absence* of cohesin, a protein that has previously been found to be crucial in the mechanism. However, further work must be done in order to validate such findings. Using newer Hi-C methods, as we have learned from this chapter, we can hopefully gain a better insight in this field.
 
